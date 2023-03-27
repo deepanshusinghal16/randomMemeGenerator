@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/randomMemeGenerator/static/css/main.44828511.css",
+    "main.js": "/randomMemeGenerator/static/js/main.7a41aad3.js",
+    "index.html": "/randomMemeGenerator/index.html",
+    "main.44828511.css.map": "/randomMemeGenerator/static/css/main.44828511.css.map",
+    "main.7a41aad3.js.map": "/randomMemeGenerator/static/js/main.7a41aad3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44828511.css",
+    "static/js/main.7a41aad3.js"
+  ]
+}
