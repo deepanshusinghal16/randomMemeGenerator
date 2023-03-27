@@ -8,8 +8,8 @@ const API_KEY = 'qIaqHqNpgxJVvpIPMba18GCcGN25fxGx';
 
 const Random = () => {
 
-    const { gif, isLoading, fetchData } = useGIF();
-    
+    const { gif, isLoading, fetchData } = useGIF('');
+
     function clickHandler() {
         fetchData();
     }
