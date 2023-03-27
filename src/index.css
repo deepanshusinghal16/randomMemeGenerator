@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* css background-image generated using https://10015.io/tools/css-background-pattern-generator */
+.background {
+  background-image: radial-gradient(#ffffff 2.5px, transparent 2.5px), radial-gradient(#ffffff 2.5px, transparent 2.5px);
+  background-size: 36px 36px;
+  background-position: 0 0, 18px 18px;
+  background-color: #b1d2ff;
+}
+*{
+   box-sizing: border-box;
+}
+
+
+/* css loader generated using https://10015.io/tools/css-loader-generator */
+
+
+.blob {
+   width: 112px;
+   height: 112px;
+   display: grid;
+   background: #fff;
+   filter: blur(4.5px) contrast(10);
+   padding: 11.2px;
+   mix-blend-mode: darken;
+}
+
+.blob:before {
+   content: "";
+   margin: auto;
+   width: 33.6px;
+   height: 33.6px;
+   border-radius: 50%;
+   color: #c675b1;
+   background: currentColor;
+   box-shadow: -33.6px 0,33.6px 0,0 33.6px, 0 -33.6px;
+   animation: blob-031hhgmd 1s infinite alternate;
+}
+
+@keyframes blob-031hhgmd {
+   90%, 100% {
+      box-shadow: -11.2px 0,11.2px 0,0 11.2px, 0 -11.2px;
+      transform: rotate(180deg);
+   }
+}
